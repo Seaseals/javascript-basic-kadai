@@ -6,5 +6,7 @@ let userHeight;
 userWeight=68;
 userHeight=1.7;
 
+let bmi = userWeight / (userHeight * userHeight);
+console.log(bmi);
 // コンソールへの出力
-console.log(68/ (1.7*1.7) );
+// console.log(userWeight/ (userHeight * userHeight) );
