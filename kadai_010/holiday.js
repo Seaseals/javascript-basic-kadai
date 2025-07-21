@@ -2,16 +2,26 @@ const holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 
 
 // for文の場合
-// 2回繰り返す
-for (let i= 0; i < 2; i++ ) {
-console.log(holidays);
+//配列を2回繰り返す
+// for (let i= 0; i < 2; i++ ) {
+// console.log(holidays);
+// }
+
+
+for (let i= 0; i < 16; i++ ) {
+console.log(holidays[i]);
 }
 
+let count=0
+while(count <= 15){
+  console.log(holidays[count]);
+  count ++;
+}
 // while文の場合
-
 // counst　countはダメ！再代入できないため。
-let  count = 0;
-while (count < 2) {
-console.log(holidays);
-count ++;
-}
+// 配列を２回繰り返す
+// let  count = 0;
+// while (count < 2) {
+// console.log(holidays);
+// count ++;
+// }
