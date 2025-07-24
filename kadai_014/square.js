@@ -1,6 +1,6 @@
 // アロー関数
 const double = (num) => {
-  return num * 10;
+  return num * num;
 }
 
 // 関数の戻り値を出力する
